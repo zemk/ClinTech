@@ -1,6 +1,12 @@
 .footer
   padding-top: 91px
   padding-bottom: 56px
+  &-a
+    border-radius: 10px
+    overflow: hidden
+    width: 36px
+    height: 36px
+    margin-right: 20px
   &-h3
     margin-bottom: 25px
     font-family: Montserrat
@@ -12,8 +18,13 @@
     align-items: center
 
     color: #212529
+  &-h4
+    margin: 0
+    padding: 0
   &-block
     width: 300px
+    &-img
+      align-items: start
 
     &s
       display: flex
@@ -31,11 +42,15 @@
 
     color: #343A40
     &__mb
+      margin: 0
+      padding: 0
       margin-top: 40px
       text-decoration: underline
+
     &s
       display: flex
       justify-content: space-between
       width: 300px
       flex-wrap: wrap
       min-height: 160px
+      align-items: flex-end

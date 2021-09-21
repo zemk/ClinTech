@@ -813,9 +813,93 @@ img {
   color: #F2F2F3;
 }
 
+.response {
+  padding-top: 61px;
+  padding-bottom: 82px;
+}
+
+.response-h2 {
+  margin-bottom: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #212529;
+}
+
+.accordion {
+  background: #343A40;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-bottom: 5px;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:hover {
+  background-color: #607D8B;
+}
+
+.active:after {
+  content: '\002B';
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  color: #212121;
+  background-color: #fff;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out;
+}
+
+.panel-p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 141.9%;
+  color: #343A40;
+}
+
 .footer {
   padding-top: 91px;
   padding-bottom: 56px;
+}
+
+.footer-a {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 36px;
+  height: 36px;
+  margin-right: 20px;
 }
 
 .footer-h3 {
@@ -834,8 +918,19 @@ img {
   color: #212529;
 }
 
+.footer-h4 {
+  margin: 0;
+  padding: 0;
+}
+
 .footer-block {
   width: 300px;
+}
+
+.footer-block-img {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 
 .footer-blocks {
@@ -864,6 +959,8 @@ img {
 }
 
 .footer-link__mb {
+  margin: 0;
+  padding: 0;
   margin-top: 40px;
   text-decoration: underline;
 }
@@ -879,5 +976,8 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   min-height: 160px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 /*# sourceMappingURL=style.css.map */

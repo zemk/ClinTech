@@ -1,0 +1,61 @@
+.response
+  padding-top: 61px
+  padding-bottom: 82px
+  &-h2
+    margin-bottom: 60px
+    font-family: Montserrat
+    font-style: normal
+    font-weight: bold
+    font-size: 30px
+    line-height: 37px
+    color: #212529
+
+.accordion
+  background: #343A40
+  border-radius: 4px
+  color: #fff
+  cursor: pointer
+  padding: 16px
+  width: 100%
+  border: none
+  text-align: left
+  outline: none
+  font-size: 18px
+  transition: 0.5s
+  margin-bottom: 5px
+  &:after
+    content: '\002B'
+    color: #fff
+    font-size: 18px
+    font-weight: bold
+    float: right
+    margin-left: 5px
+
+.active
+  &:hover
+    background-color: #607D8B
+  &:after
+    content: '\002B'
+    color: #fff
+    font-size: 18px
+    font-weight: bold
+    float: right
+    margin-left: 5px
+
+.active:after
+  content: "\2212"
+
+.panel
+  padding: 0 18px
+  color: #212121
+  background-color: #fff
+  max-height: 0
+  overflow: hidden
+  transition: max-height 0.3s ease-out
+  &-p
+    font-family: Montserrat
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 141.9%
+    color: #343A40
