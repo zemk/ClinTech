@@ -436,6 +436,18 @@ img {
   line-height: 20px;
 }
 
+.header-list__link:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #007BFF;
+}
+
+.header-list__link-active {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #007BFF;
+}
+
 .header__button {
   font-style: normal;
   font-weight: normal;
