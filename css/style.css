@@ -980,4 +980,131 @@ img {
       -ms-flex-align: end;
           align-items: flex-end;
 }
+
+.breadcrumbs {
+  padding: 12px 0 12px 20px;
+  background: #F8F9FA;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.breadcrumbs-list {
+  color: #007BFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.breadcrumbs-list__link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6C757D;
+}
+
+.breadcrumbs-list__link::after {
+  content: '/';
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.breadcrumb {
+  padding-top: 98px;
+  padding-bottom: 68px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.breadcrumb-h2 {
+  padding-top: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #232324;
+}
+
+.price {
+  background: #FBFBFB;
+  border-radius: 4px;
+  padding-top: 85px;
+}
+
+.price-block {
+  padding-bottom: 76px;
+}
+
+.price-tr {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232324;
+}
+
+.price-tr__item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-left: 20px;
+  line-height: 20px;
+}
+
+.price-h3 {
+  padding-bottom: 61px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #232324;
+}
+
+table {
+  width: 100%;
+  -webkit-box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.17);
+          box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.17);
+  border-radius: 4px;
+}
+
+th {
+  width: 20%;
+}
+
+td:first-child {
+  width: 30%;
+}
+
+th {
+  font-size: 13px;
+  font-weight: normal;
+  background: #fff;
+  color: #232324;
+  padding: 10px;
+}
+
+td {
+  background: #fff;
+  color: #232324;
+  padding: 8px;
+}
+
+tr:hover td {
+  background: #ccddff;
+}
 /*# sourceMappingURL=style.css.map */
